@@ -14,7 +14,7 @@ const forecast = (lat, long, callback) => {
             );
         } else {
             const {current} = body;
-            //console.log(current);
+            console.log(current);
             callback(
                 undefined,
                 `${current.weather_descriptions[0]}. It is currently ${
